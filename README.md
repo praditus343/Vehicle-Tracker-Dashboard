@@ -2,6 +2,23 @@
 
 A modern, responsive vehicle tracking dashboard built with React, TypeScript, and TailwindCSS. Monitor your fleet in real-time with an intuitive and professional interface.
 
+[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vehicle-tracker-dashboard-alpha.vercel.app/)
+[![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=white)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
+[![Zustand](https://img.shields.io/badge/Zustand-State%20Management-FF6B6B?style=for-the-badge)](https://zustand-demo.pmnd.rs/)
+
+## 🌐 Live Demo
+
+🚀 **[View Live Application](https://vehicle-tracker-dashboard-alpha.vercel.app/)**
+
+Experience the fully responsive dashboard deployed on Vercel. Test all features including:
+- Vehicle list with real-time status indicators
+- Detailed vehicle telemetry views
+- Mobile-optimized interface
+- Interactive fuel level gauges
+- Google Maps integration
+
 ## ✨ Features
 
 ### 🎯 Core Functionality
@@ -42,6 +59,8 @@ A modern, responsive vehicle tracking dashboard built with React, TypeScript, an
 
 ## 🚀 Getting Started
 
+> **🌐 Quick Start**: [Try the live demo](https://vehicle-tracker-dashboard-alpha.vercel.app/) or follow the steps below to run locally.
+
 ### Prerequisites
 - Node.js 18+ 
 - npm or pnpm or yarn
@@ -50,7 +69,7 @@ A modern, responsive vehicle tracking dashboard built with React, TypeScript, an
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/praditus343/Vehicle-Tracker-Dashboard.git
    cd vehicle-tracker-dashboard
    ```
 
@@ -151,6 +170,26 @@ const fetchVehicles = async () => {
   return vehicles;
 };
 ```
+
+## 🚀 Deployment
+
+### Live Application
+The application is deployed and live at:
+**🔗 [https://vehicle-tracker-dashboard-alpha.vercel.app/](https://vehicle-tracker-dashboard-alpha.vercel.app/)**
+
+### Deployment Platform
+- **Platform**: Vercel
+- **Auto-Deploy**: Enabled from main branch
+- **Environment**: Production
+- **Build Command**: `pnpm build`
+- **Output Directory**: `dist`
+
+### Deploy Your Own
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/praditus343/Vehicle-Tracker-Dashboard)
+
+1. **Fork this repository**
+2. **Connect to Vercel**
+3. **Deploy automatically**
 
 ## 📝 Next Steps
 
